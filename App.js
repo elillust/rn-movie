@@ -11,8 +11,8 @@ export default function App() {
   const startLoading = async () => {
     await new Promise((resolve) => setTimeout(resolve, 1000))
     await Font.loadAsync(Ionicons.font)
-    await Asset.loadAsync(require('./profil-01.jpg'))
-    await Image.prefetch('https://images.unsplash.com/photo-1553272725-086100aecf5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80')
+    // await Asset.loadAsync(require('./profil-01.jpg'))
+    // await Image.prefetch('https://images.unsplash.com/photo-1553272725-086100aecf5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80')
   };
 
   if (!ready){
@@ -25,6 +25,6 @@ export default function App() {
     );
   }
   return (
-    <Text>We are done loading</Text>
+    <Text>We are aaa done loading Test</Text>
   );
 }

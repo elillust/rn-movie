@@ -15,6 +15,6 @@ export default function App() {
     );
   }
   return (
-    <Text>We are cccc done loading Test</Text>
+    <Text>We are dddcccc done loading Test</Text>
   );
 }
